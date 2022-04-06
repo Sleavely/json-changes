@@ -1,0 +1,30 @@
+{
+  "name": "diffjson",
+  "version": "1.0.0",
+  "description": "Easily compare changes in JSON-like values.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --verbose --silent && eslint ."
+  },
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "homepage": "https://github.com/Sleavely/diffjson",
+  "repository": "github:Sleavely/diffjson",
+  "license": "MIT",
+  "keywords": [
+    "diff",
+    "compare",
+    "json",
+    "comparison",
+    "before",
+    "after",
+    "changes"
+  ],
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^27.4.7"
+  }
+}

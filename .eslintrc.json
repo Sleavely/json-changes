@@ -1,0 +1,18 @@
+{
+  "extends": "standard",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-trailing-spaces": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.spec.*"],
+      "rules": {
+        "no-sparse-arrays": "off"
+      }
+    }
+  ],
+  "env": {
+    "jest": true
+  }
+}
